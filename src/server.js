@@ -1,32 +1,3 @@
-/* var http = require('http');
-
-var server = http.createServer(function(request, response) {
-
-    response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello, Welcome to DevOps CI CD,New commit");
-
-});
-
-var port = 3000;
-server.listen(port);
-module.exports = server
-console.log("Server is available on Port:", port); */
-
-
-/* var http = require('http');
-
-var server = http.createServer(function(request, response) {
-    response.writeHead(200, {"Content-Type": "text/html"});
-    response.end("<html><body><h1>Hello, Welcome to DevOps CI CD,New commit</h1></body></html>");
-});
-
-var port = 3000;
-server.listen(port);
-module.exports = server;
-console.log("Server is available on Port:", port); */
-
-
-
 var http = require('http');
 
 var server = http.createServer(function (request, response) {
@@ -100,7 +71,6 @@ var server = http.createServer(function (request, response) {
             <h1>CI/CD Pipeline with Jenkins, Containers and Amazon ECS</h1>
         </header>
         <main>
-            <h1>CI CD Docker Tool Stack</h1>
             <h2 id="ci">Continuous Integration</h2>
             <p>Continuous Integration (CI) is the practice of regularly merging code changes from multiple developers into a
                 single shared repository. This helps to detect and resolve conflicts early on, and ensures that the code is

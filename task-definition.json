@@ -4,7 +4,7 @@
         {
             "image": "REPOSITORY_URI:BUILD_NUMBER",
             "name": NAME,
-	    "essential": true,
+            "essential": true,
             "portMappings": [
                 {
                     "containerPort": 3000,
