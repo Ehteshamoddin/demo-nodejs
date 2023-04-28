@@ -14,7 +14,6 @@ pipeline {
     }
    
     stages {
-    // Tests
     stage('Unit Tests') {
       steps{
         script {
@@ -23,7 +22,6 @@ pipeline {
         }
       }
     }
-    // Building Docker images
     stage('Building image') {
       steps{
         script {
@@ -31,7 +29,6 @@ pipeline {
         }
       }
     }
-    // Uploading Docker images into AWS ECR
     stage('Pushing to ECR') {
      steps{  
          script {
@@ -46,7 +43,7 @@ pipeline {
      steps{
             withAWS(credentials: registryCredential, region: "${AWS_DEFAULT_REGION}") {
                 script {
-                  sh "chmod +x -R ${env.WORKSPACE}"
+                  sh 'chmod +x -R ${env.WORKSPACE}'
                   sh './script.sh'
                 }
             } 
