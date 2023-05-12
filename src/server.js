@@ -71,13 +71,13 @@ var server = http.createServer(function (request, response) {
             <h1>CI/CD Pipeline with Jenkins, Containers and Amazon ECS</h1>
         </header>
         <main>
-            <h2 id="ci">Continuous Integration</h2>
+            <h2 id="ci">Continuous Integration(CI)</h2>
             <p>Continuous Integration (CI) is the practice of regularly merging code changes from multiple developers into a
                 single shared repository. This helps to detect and resolve conflicts early on, and ensures that the code is
                 always in a releasable state. Jenkins is a popular open source CI tool that can automate the build, test and
                 deployment processes.</p>
     
-            <h2 id="cd">Continuous Delivery</h2>
+            <h2 id="cd">Continuous Delivery(CD)</h2>
             <p>Continuous Delivery (CD) is the practice of automating the entire software release process. This includes
                 building, testing and deploying the code changes to production or a staging environment. This ensures that
                 the software can be reliably released at any time. Jenkins can also be used to automate the CD process.</p>
