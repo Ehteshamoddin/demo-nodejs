@@ -72,7 +72,6 @@ var server = http.createServer(function (request, response) {
         </header>
         <main>
             <h2 id="ci">Continuous Integration</h2>
-            <h2 id="ci">Continuous Integration</h2>
             <p>Continuous Integration (CI) is the practice of regularly merging code changes from multiple developers into a
                 single shared repository. This helps to detect and resolve conflicts early on, and ensures that the code is
                 always in a releasable state. Jenkins is a popular open source CI tool that can automate the build, test and
